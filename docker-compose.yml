@@ -25,3 +25,4 @@ services:
       - DATABASE_PASSWORD=password
       - DATABASE_NAME=MyAppDb
       - DATABASE_PORT=3306
+      - SPRING_PROFILES_ACTIVE=docker
